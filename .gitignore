@@ -1,0 +1,26 @@
+# Node.js generated files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+.cache/
+
+# Environment variables
+.env
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Log files
+*.log
+
+# Compiled binary addons (if any)
+*.node
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
