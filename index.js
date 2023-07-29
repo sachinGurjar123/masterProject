@@ -1,12 +1,9 @@
 const fastify = require("fastify");
 const { initDB } = require("./database/connectDb");
-
+const routes = require("./routes/v1");
 const app = fastify();
-
-// Route for user login
-app.post("/", async (request, reply) => {
-  reply.send({ name: "master project" });
-});
+app.register(require("@fastify/cors"));
+app.register(routes);
 
 // Start the server
 const start = async () => {
@@ -19,5 +16,4 @@ const start = async () => {
     process.exit(1);
   }
 };
-
 start();

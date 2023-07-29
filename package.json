@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/sachinGurjar123/masterProject#readme",
   "dependencies": {
+    "@fastify/cors": "^8.3.0",
     "bcrypt": "^5.1.0",
-    "fastify": "^4.20.0",
+    "fastify": "^4.21.0",
+    "fastify-cors": "^6.1.0",
     "gitignore": "^0.7.0",
     "mongoose": "^7.4.1",
     "nodemon": "^3.0.1"
