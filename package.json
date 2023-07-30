@@ -23,6 +23,7 @@
     "fastify": "^4.21.0",
     "fastify-cors": "^6.1.0",
     "gitignore": "^0.7.0",
+    "joi": "^17.9.2",
     "mongoose": "^7.4.1",
     "nodemon": "^3.0.1"
   }

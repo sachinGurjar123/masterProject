@@ -1,9 +1,5 @@
-const getalldaa = async (req, reply) => {
-  await reply.send({ name: "sachin" });
+const login = async (request, reply, next) => {
+  console.log(request.body);
 };
 
-const login = async (req, reply) => {
-  await reply.send({ user: "sachin" });
-};
-
-module.exports = { getalldaa: getalldaa, login: login };
+module.exports = { login: login };
